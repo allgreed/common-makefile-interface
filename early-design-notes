@@ -1,0 +1,3 @@
+- having the formalized targets begin with a different letters, so that autocomplete experiance is nicer - `make r[tab]` vs `make run`
+- breaking the Makefile convention of the default target being recepie that builds all possible outputs and having it be `help` instead - that'll prevent accidental builds as well as gracefully show the possibilities to someone experianced with Makefiles
+- the formalized targets being simple English words like `run, build, help` rather than `launch, manufacture, assistance`
